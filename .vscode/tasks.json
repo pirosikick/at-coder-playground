@@ -6,11 +6,12 @@
       "command": "/usr/bin/g++",
       "args": [
         "-std=gnu++1y",
+        "-O0",
         "-g",
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.out"
-      ],
+     ],
       "options": {
         "cwd": "/usr/bin"
       },
